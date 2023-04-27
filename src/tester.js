@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import HorseComponent from './horse-component';
 
 function App() {
   return (
@@ -18,8 +17,6 @@ function App() {
         >
           Learn React
         </a>
-
-        <HorseComponent />
       </header>
     </div>
   );
