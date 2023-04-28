@@ -1,26 +1,23 @@
 import logo from './logo.svg';
-import './App.css';
+import './My-App.css';
 import HorseComponent from './horse-component';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-
-        <HorseComponent />
+       <h1>Welcome!</h1>
       </header>
+      <div>
+      <p>Please Login</p>
+      <form>
+        <label htmlFor="name">Name: </label>
+        <input type="text" id="name" />
+        <br />
+        <label htmlFor="password">Password: </label>
+        <input type="text" id="password" />
+      </form>
+      </div>
     </div>
   );
 }
