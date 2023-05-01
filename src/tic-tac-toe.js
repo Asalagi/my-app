@@ -75,7 +75,7 @@ export default function Game() {
         <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
       </div>
       <div className="game-info">
-        <button onClick={() => jumpTo(0)}>Go to game start</button>
+        <button onClick={() => jumpTo(0)}>Play Again</button>
     </div>
     </div>
   );

@@ -42,11 +42,8 @@
     margin-bottom: 10px;
     font-weight: bold;
   }
-  
-  .x {
-    color: red;
-  }
-  
-  .o {
-    color: green;
+
+  button {
+    width: 150px;
+    font-size: 20px;
   }
