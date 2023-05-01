@@ -17,7 +17,48 @@ body {
   }
 
   input {
-    width: 125px;
-    border: 2px solid black;
+    width: 150px;
+    border: 1px solid black;
     margin: 2px;
+  }
+
+  button {
+    display: flex;
+    width: 100px;
+    border: 1px solid black;
+    justify-content: center;
+  }
+
+  .my-table {
+    border-collapse: collapse;
+    width: 25%;
+    margin: 0 auto;
+  }
+  
+  .my-table th, .my-table td {
+    border: 1px solid black;
+    padding: 2px;
+    text-align: left;
+  }
+  
+  .my-table th {
+    background-color: grey;
+    color: black;
+  }
+
+  .reg-table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .reg-table th, .reg-table td {
+    border: 1px solid black;
+    padding: 2px;
+    text-align: left;
+  }
+  
+  .reg-table th {
+    background-color: grey;
+    color: black;
   }
