@@ -22,11 +22,25 @@ body {
     margin: 2px;
   }
 
+  select {
+    width: 150px;
+    border: 1px solid black;
+    margin: 2px;
+  }
+
+  textarea {
+    width: 250px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 2px;
+  }
+
   button {
-    display: flex;
+    display: center;
     width: 100px;
     border: 1px solid black;
     justify-content: center;
+    align-items: center;
   }
 
   .my-table {
