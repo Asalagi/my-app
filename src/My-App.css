@@ -48,35 +48,42 @@ body {
   }
 
   .my-table {
+    border: 1px solid black;
     border-collapse: collapse;
     width: 30%;
     margin: 0 auto;
   }
   
-  .my-table th, .my-table td {
+  .my-table thead, .my-table th {
+    background-color: #406b9e;
+    border: 1px solid black;
+    padding: 2px;
+    text-align: left;
+    color: black;
+  }
+  
+  .my-table td {
+    background-color: white;
     border: 1px solid black;
     padding: 2px;
     text-align: left;
   }
-  
-  .my-table th {
-    background-color: grey;
-    color: black;
-  }
 
   .reg-table {
     border-collapse: collapse;
-    width: 75%;
+    width: 50%;
     margin: 0 auto;
   }
   
-  .reg-table th, .reg-table td {
+  .reg-table td {
+    background-color: white;
     border: 1px solid black;
     padding: 2px;
     text-align: left;
   }
   
   .reg-table th {
-    background-color: grey;
+    background-color: #406b9e;
+    border: 1px solid black;
     color: black;
   }
