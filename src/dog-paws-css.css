@@ -8,6 +8,20 @@
     background: rgb(123, 34, 34);
 }
 .header-add {
-    font-size: 25px;
+    padding: 5px;
+    font-size: 20px;
     color: white;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    top: flex;
+    left: 0;
+    background: #c0c0c0;
 }
