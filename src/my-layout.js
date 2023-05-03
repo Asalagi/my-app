@@ -21,7 +21,35 @@ function Layout() {
                 <button className="btn btn-sm">Search</button>
             </div>
             </nav>
-            
+
+          <section className="section">
+            <div className="box-main">
+                <div className="firstHalf">
+                    <h1 className="text-big">Put some titling text here
+                    </h1>
+                    <p className="text-small">
+                        Put some text here maybe add a picture or something.
+                    </p>
+                </div>
+            </div>
+          </section>
+          <section className="section">
+            <div className="box-main">
+                <div className="secondHalf">
+                    <h1 className="text-big" id="program">
+                        Some more big text here
+                    </h1>
+                    <p className="text-small">
+                        some more text here add a picture or something.
+                    </p>
+                </div>
+            </div>
+          </section>
+          <footer className="footer">
+            <p className="text-footer">
+                Put some foot text here
+            </p>
+          </footer>
         </div>
     )
 }
