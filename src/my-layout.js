@@ -16,7 +16,12 @@ function Layout() {
                     <li><a href="#forsale">For Sale</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
+            <div className="rightNav">
+                <input type="text" name="search" id="search" />
+                <button className="btn btn-sm">Search</button>
+            </div>
             </nav>
+            
         </div>
     )
 }
