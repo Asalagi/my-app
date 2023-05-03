@@ -31,7 +31,7 @@ function Shop() {
         <>
         {list&&
         list.map((item, index) => (
-            <div style={{backgroundColor:'grey', margin:'20px 25%', textAlign:'center', fontSize:'4'}}
+            <div style={{backgroundColor:'grey', margin:'10px 45%', textAlign:'center', fontSize:'4'}}
                 onDragStart={(e) => dragStart(e, index)}
                 onDragEnter={(e) => dragEnter(e, index)}
                 onDragEnd={drop} 
