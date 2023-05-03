@@ -1,0 +1,13 @@
+* {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.first-header {
+    background: rgb(123, 34, 34);
+}
+.header-add {
+    font-size: 25px;
+    color: white;
+}
