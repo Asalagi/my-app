@@ -9,7 +9,7 @@ function DogPaws() {
                     Book before June 1st and receive free blueberry facial
                 </h1>
             </div>
-            <div clsssName="nav-bar">
+            <div>
                 <ul className="nav-bar">
                    <div className="logo">
                         <img src={logo} alt='' />
