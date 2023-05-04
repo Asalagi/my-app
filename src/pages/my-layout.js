@@ -1,7 +1,7 @@
 import './layout.css';
-import logo from './three-running-horses.png';
 import farm from './horse-ranch.jpeg';
-import NavigationBar from './my-layout-nav'
+import NavigationBar from './my-layout-nav';
+import LayoutFooter from './my-layout-footer';
 
 function Layout() {
     return (
@@ -60,11 +60,9 @@ function Layout() {
                 </div>
             </div>
           </section>
-          <footer className="footer">
-            <p className="text-footer">
-                Put some foot text here
-            </p>
-          </footer>
+          <div>
+            <LayoutFooter />
+          </div>
         </div>
     )
 }
