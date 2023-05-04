@@ -20,12 +20,11 @@
 }
  
 .footer {
-height: 100vh;
-background-color: #2274a5;
+    background-color: #2274a5;
 }
  
 .nav-list {
-    width: 70%;
+    width: flex;
     display: flex;
     align-items: center;
 }
@@ -71,7 +70,7 @@ background-color: #2274a5;
 .box-main {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     color: black;
     max-width: 80%;
     margin: auto;
@@ -108,13 +107,13 @@ background-color: #2274a5;
 }
  
 .btn {
-margin-left: 20px;
-height: 33px;
-width: 70px;
-border-radius: 10px;
-    color: black;
-background-color: #d6d6d6;
-    cursor: pointer;
+    margin-left: 20px;
+    height: 33px;
+    width: 70px;
+    border-radius: 10px;
+        color: black;
+    background-color: #d6d6d6;
+        cursor: pointer;
 }
  
 .btn-sm {
@@ -139,10 +138,11 @@ background-color: #d6d6d6;
 }
  
 .text-footer {
-    text-align: center;
+    background-color: #2274a5;
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     display: flex;
+    text-align: center;
     justify-content: center;
-    color: #fff;
+    color: black;
 }
