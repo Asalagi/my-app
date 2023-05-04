@@ -6,7 +6,7 @@ function DogPaws() {
         <div>
             <div className="first-header">
                 <h1 className="header-add">
-                    Book before June 1st and receive free blueberry facial
+                    put add text here
                 </h1>
             </div>
             <div className="nav-bar">
@@ -20,6 +20,14 @@ function DogPaws() {
                     <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </div>
+            <section className="section">
+                <div className="section-main">
+                    <p>there should be text here</p>
+                </div>
+            </section>
+            <footer className="footer">
+                <p>footer text here</p>
+            </footer>
         </div>
     )
 
