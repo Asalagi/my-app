@@ -9,7 +9,7 @@ function NavigationBar() {
                     <div className="logo">
                         <img src={logo} alt='' />
                     </div>
-                    <li><a href="#theteam">The Team</a></li>
+                    <li><a href="my-layout-team">The Team</a></li>
                     <li><a href="#facilities">Facilities</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#stallions">Stallions</a></li>
