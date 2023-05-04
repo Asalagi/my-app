@@ -12,7 +12,12 @@
     top: 0;
     cursor: pointer;
 }
- 
+.image-container {
+    float: left;
+    margin: auto;
+    height: 180px;
+}
+
 .background {
     background: white;
     background-blend-mode: darken;
@@ -20,7 +25,6 @@
 }
  
 .nav-list {
-    width: flex;
     display: flex;
     align-items: center;
 }
@@ -42,6 +46,7 @@
 }
  
 .nav-list li a {
+    margin: 0;
     text-decoration: none;
     color: #000;
 }
@@ -86,6 +91,9 @@
     font-size: 30px;
 }
  
+.blah-blah {
+    overflow: unset;
+}
 .text-small {
     font-size: 18px;
 }

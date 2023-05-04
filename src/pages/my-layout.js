@@ -1,5 +1,6 @@
 import './layout.css';
 import logo from './three-running-horses.png';
+import farm from './horse-ranch.jpeg';
 
 function Layout() {
     return (
@@ -9,11 +10,12 @@ function Layout() {
                     <div className="logo">
                         <img src={logo} alt='' />
                     </div>
-                    <li><a href="#theteam">The&nbsp;Team</a></li>
+                    <li><a href="#theteam">The Team</a></li>
                     <li><a href="#facilities">Facilities</a></li>
+                    <li><a href="#services">Services</a></li>
                     <li><a href="#stallions">Stallions</a></li>
                     <li><a href="#mares">Mares</a></li>
-                    <li><a href="#forsale">For&nbsp;Sale</a></li>
+                    <li><a href="#forsale">For Sale</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -21,10 +23,50 @@ function Layout() {
           <section className="section">
             <div className="box-main">
                 <div className="firstHalf">
-                    <h1 className="text-big">Put some titling text here
+                    <h1 className="text-big">
+                        Welcome to the ranch!
                     </h1>
-                    <p className="text-small">
-                        Put some text here maybe add a picture or something.
+                    <div className="image-container">
+                    <img src={farm} alt='' />
+                    </div>
+                    <p className="text-small blah-blah">
+                        Put some text here maybe add a picture or something. 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                        Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
                     </p>
                 </div>
             </div>
