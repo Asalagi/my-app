@@ -1,7 +1,7 @@
 import './dog-paws-css.css';
 import logo from './dog.png';
 
-function DogPaws() {
+function DogPawsAbout() {
     return (
         <div>
             <div className="first-header">
@@ -22,7 +22,7 @@ function DogPaws() {
             </div>
             <section className="section">
                 <div className="section-main">
-                    <p>there should be text here</p>
+                    <p>About - there should be text here</p>
                 </div>
             </section>
             <footer className="footer">
@@ -33,4 +33,4 @@ function DogPaws() {
 
 }
 
-export default DogPaws;
+export default DogPawsAbout;
