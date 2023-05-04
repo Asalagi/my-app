@@ -19,10 +19,6 @@
     background-size: cover;
 }
  
-.footer {
-    background-color: #2274a5;
-}
- 
 .nav-list {
     width: flex;
     display: flex;
@@ -53,18 +49,6 @@
 .nav-list li a:hover {
     color: #00509d;
     font-weight: bold;
-}
- 
-.rightnav {
-    width: 30%;
-    text-align: right;
-}
- 
-#search {
-    padding: 5px;
-    font-size: 17px;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 5px;
 }
  
 .box-main {
@@ -137,9 +121,15 @@
     text-align: center;
 }
  
+.footer {
+    display: fixed;
+    text-align: center;
+    justify-content: center;
+}
+
 .text-footer {
     background-color: #2274a5;
-    padding: 30px 0;
+    min-height: 100vh;
     font-family: 'Ubuntu', sans-serif;
     display: flex;
     text-align: center;
