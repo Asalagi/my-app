@@ -1,7 +1,5 @@
 * {
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
+    overflow-y: auto;
 }
  
 .navbar {
@@ -17,7 +15,11 @@
     margin: auto;
     height: 172px;
 }
-
+.image-person {
+    float: left;
+    margin: 3px;
+    height: 200px;
+}
 .background {
     background: white;
     background-blend-mode: darken;
@@ -90,12 +92,18 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
 }
- 
+.person-header {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+}
+
 .blah-blah {
     overflow: unset;
 }
+
 .text-small {
-    font-size: 18px;
+    font-size: 15px;
 }
  
 .btn {
@@ -119,10 +127,6 @@
     align-items: center;
     background-color: #d6d6d6;
     justify-content: space-between;
-}
- 
-.section-Left {
-    flex-direction: row-reverse;
 }
  
 .center {
