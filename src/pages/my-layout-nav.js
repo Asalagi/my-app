@@ -4,8 +4,8 @@ import logo from './three-running-horses.png';
 function NavigationBar() {
     return (
         <div>
-            <nav className="navbar background">
-                <ul className="nav-list">
+            <nav className="layout-navbar layout-background">
+                <ul className="layout-nav-list">
                     <div className="logo">
                         <img src={logo} alt='' />
                     </div>

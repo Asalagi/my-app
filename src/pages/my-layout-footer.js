@@ -2,8 +2,8 @@ import './layout.css';
 
 function LayoutFooter() {
     return (
-        <footer className="footer">
-        <p className="text-footer">
+        <footer className="layout-footer">
+        <p className="layout-text-footer">
             Put some foot text here
         </p>
       </footer>
