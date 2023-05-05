@@ -1,4 +1,5 @@
 * {
+    overflow: scroll;
     padding: 0;
     margin: 0;
 }
@@ -60,8 +61,8 @@
 }
  
 .layout-box-main {
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     color: black;
     max-width: 80%;
     margin: auto;
@@ -69,8 +70,8 @@
 }
  
 .layout-first-half {
-    height: 95%;
-    justify-content: center;
+    height: 100%;
+    justify-content: left;
 }
 
 .layout-text-big {
@@ -87,7 +88,7 @@
 }
 
 .blah-blah {
-    overflow: auto;
+    overflow: unset;
 }
 
 .layout-text-small {
@@ -95,11 +96,10 @@
 }
 
 .layout-section {
-    height: 80vh;
-    display: flex;
-    align-items: center;
+    height: 100vh;
+    align-items: left;
     background-color: #d6d6d6;
-    justify-content: center;
+    justify-content: left;
 }
  
 .layout-center {
@@ -107,15 +107,15 @@
 }
 
 .layout-footer {
-    position: relative;
+    position: fixed;
     width: 100%;
-    bottom: 0;
     height: 50px;
+    bottom: 0px;
     }
 
 .layout-text-footer {
     background-color: #2274a5;
-    min-height: 10vh;
+    min-height: 100vh;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     justify-content: center;
