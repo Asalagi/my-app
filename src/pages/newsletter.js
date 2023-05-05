@@ -11,11 +11,11 @@ function NewsLetter() {
     }
     
     return (
-        <section className="newsletter-box">
-        <div className="newsletter-box">
-            <h2>Sign up for our newsletter.
-            </h2>
+        <section className="layout-section">
         <div>
+            <h2>Keep up to date with our farm.<br />
+                Sign up for our newsletter.
+            </h2>
           <input className="newsletter-input"
             type="text" 
             id="name" 
@@ -29,7 +29,6 @@ function NewsLetter() {
             value={email} 
             onChange={e => setEmail(e.target.value)} /><br />
            <button type="button" onClick={handleSubmit}>Sign Up!</button>
-         </div>
          </div>
          </section>
     )
