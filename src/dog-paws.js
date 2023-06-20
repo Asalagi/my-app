@@ -14,7 +14,7 @@ function DogPaws() {
                         <img src={logo} alt='' />
                     </div>
                 <ul className="nav-bar">
-                    <li><a href="./dog-paws-about">About Us</a></li>
+                    <li><a href="/dog-paws-about">About Us</a></li>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#shop">Shop</a></li>
                     <li><a href="#contact">Contact Us</a></li>
